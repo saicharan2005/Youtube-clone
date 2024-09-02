@@ -1,5 +1,6 @@
 .div-thumnail{
   width: 300px;
+  position:relative;
 }  
 .div-discription{
   width: 300px;
@@ -17,7 +18,7 @@
   width: 230px;
 }
 
-.tuf-image{
+.video-image{
   width: 100%;
 }
 .tuf-profile{
@@ -54,9 +55,23 @@ margin-top: 12px;
    
 }
 
-.div-first{
+.video-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 20px;
   row-gap: 10px;
+}
+
+.time-box{
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  font-family: Roboto,Arial;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+
 }

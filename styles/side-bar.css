@@ -1,0 +1,74 @@
+
+.side-bar{
+  display: flex;
+  flex-direction: column;
+  width: 72px;
+  background-color: white ;
+  position: fixed;
+  top: 56px;
+  bottom: 0px;
+  left: 0px;
+  
+  padding-top: 5px;  
+  z-index: 200; 
+  
+}
+
+.side-bar-box{
+height: 74px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+
+
+}
+
+.side-bar-box:hover{
+background-color: #eeeeee;
+}
+
+.side-bar-box div{
+height: 5px;
+font-family: Roboto,Arial;
+font-size: 10px;
+display: block;
+
+}
+
+.side-bar-box img{
+height: 24px;
+margin-bottom: 5px;
+}
+
+
+
+/* .home{
+height: 24px;
+margin-bottom: 5px;
+}
+
+.explore{
+height: 24px;
+margin-bottom: 5px;
+}
+.subscriptions{
+height: 24px;
+margin-bottom: 5px;
+}
+.originals{
+height: 24px;
+margin-bottom: 5px;
+}
+.music{
+height: 24px;
+margin-bottom: 5px;
+}
+
+.library{
+height: 24px;
+margin-bottom: 5px;
+}
+
+*/
